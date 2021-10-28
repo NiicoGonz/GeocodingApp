@@ -1,4 +1,5 @@
 # geocodingApp
+<<<<<<< HEAD
 GeocodingApp
 
 Este proyecto fue realizado usando Node,Express,Postgres,TS.
@@ -47,3 +48,6 @@ Clonar en tu maquina mediante git clone https://github.com/NiicoGonz/GeocodingAp
 Crear una nueva rama
 Realiza tus cambios
 Manda tu pull request
+=======
+Proyecto con crud de usuario y consumo de la api Mapbox para geocoding 
+>>>>>>> 3c4aec2d3e02c464d71b14bdb26aa88f9c1a2361
