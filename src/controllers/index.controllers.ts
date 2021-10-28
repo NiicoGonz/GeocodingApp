@@ -122,7 +122,7 @@ export const createUser = async(req: Request,res: Response): Promise<Response>=>
                 
          }));
          
-         return res.status(200).json(usuarios);
+         return res.status(200).json('Actualizacion de coordenadas realizados porfavor verificar en localhost:4000/users');
            
        }
        catch(e){
