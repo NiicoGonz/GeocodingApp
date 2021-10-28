@@ -3,7 +3,7 @@ GeocodingApp
 
 Este proyecto fue realizado usando Node,Express,Postgres,TS.
 
-#Funcionamiento:
+# Funcionamiento:
 
 El sistema permite hacer un crud(Create, Read, Update, Delete)de usuarios.
 El sistema consulta la api de Mapbox para reasignar la latitdu, longitus y estadogeo de un usuario
