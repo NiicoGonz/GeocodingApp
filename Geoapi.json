@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "7afd2b02-a550-4877-ab3c-f0d09d352e97",
+		"name": "Geolocation Api",
+		"description": "Se utilizaron las siguientes tecnologias para la elaboracion de este proyecto:\n \n Node 16.4.2\n ts 4.4.4\n Postgresql 11.13\n\nDependencias de desarrollo:\n\ndevDependencies: \n    \"@types/express\": 4.17.13,\n    \"@types/pg\": \"8.6.1,\n    \"concurrently\": \"6.3.0,\n    \"nodemon\": \"2.0.14,\n    \"typescript\": 4.4.4\n  \ndependencies: \n    @types/node-fetch: 3.0.3,\n    cross-fetch: 3.1.4,\n    express: 4.17.1,\n    node-fetch: 3.0.0,\n    pg: 8.7.1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "obtenerUsuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/users/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n        \"name\": \"Juan  \",\r\n        \"lastname\": \"Hernesto\",\r\n        \"addres\": \"Medellin\",\r\n        \"city\": \"Colombia\"\r\n    \r\n    \r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/CreateUser",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"CreateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarUsuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"jose\",\r\n        \"lastname\": \"parra\",\r\n        \"addres\" : \"torre nueva\",\r\n        \"city\" : \"Argentina\"\r\n       \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/users/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Geocoding",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/geocoding",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"geocoding"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
