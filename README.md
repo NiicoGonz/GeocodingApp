@@ -10,7 +10,7 @@ El sistema consulta la api de Mapbox para reasignar la latitdu, longitus y estad
 
 
 
-#Dependencias y Dependencias de desarrollo:
+# Dependencias y Dependencias de desarrollo:
 
 devDependencies:
 "@types/express": 4.17.13,
@@ -26,7 +26,7 @@ express: 4.17.1,
 node-fetch: 3.0.0,
 pg: 8.7.1
 
-#Instalación
+# Instalación
 
 1 Paso
 
@@ -41,7 +41,7 @@ el archivo database.sql se encuentra en la carpeta database
 Usar el comando npm install dentro de nuestro espacio de trabajo para instalar todas las dependencias necesarias
 Levantar el servidor con el comando npm run dev
 
-#Contribución
+# Contribución
 
 Crea un Fork del repositorio
 Clonar en tu maquina mediante git clone https://github.com/NiicoGonz/GeocodingApp.git
